@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #54627b;
+  color: #f4f7f0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: auto;
+}
+
+#navigation-bar ul {
+  list-style: none;
+  margin: 50px auto;
+  max-width: 760px;
+  padding: 0;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+li {
+  display: inline;
+  padding: 0 50px;
+}
+
+#navigation-bar a {
+  color: #f4f7f0;
+  text-decoration: none;
+}
+
+#navigation-bar a:hover {
+  color: #b0b9c9;
+}
+
+#speech-container {
+  float: left;
+  margin-left: 100px;
+  margin-top: 90px;
+  max-width: 460px;
+  width: 60%;
+}
+
+h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+#speech-container p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Jomhuria", cursive;
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#contact-info {
+  float: right;
+  margin-right: 100px;
+  margin-top: 140px;
+  max-width: 460px;
+  width: 60%;
+}
+
+input {
+  background-color: #54627b;
+  border: none;
+}
+
+input[id="first-name"],
+input[id="email"] {
+  color: #f4f7f0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  outline: none;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  color: #f4f7f0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  resize: none;
+  outline: none;
+}
+
+button {
+  background-color: #f4f7f0;
+  border: none;
+  color: #54627b;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-left: 320px;
+  padding: 10px 40px;
+}
+
+.input-name,
+.input-email,
+.input-text_area {
+  border-bottom: solid 1px;
+  border-color: #f4f7f0;
+  margin-bottom: 40px;
+  padding: 0 400px 40px 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #f4f7f0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.input-name:hover,
+.input-email:hover,
+.input-text_area:hover {
+  border-bottom: solid 2px;
+}
+
+button:hover {
+  background-color: #fff;
+}
