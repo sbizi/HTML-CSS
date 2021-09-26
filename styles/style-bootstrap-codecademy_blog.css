@@ -1,0 +1,52 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#top-nav a {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #141c3a;
+}
+
+#top-nav a:hover {
+  color: #351ded;
+}
+
+.navbar-logo {
+  display: block;
+  width: auto;
+  height: 21px;
+}
+
+div.card {
+  border: none;
+  box-shadow: 0 2px 8px 0 #d0d0d0;
+}
+
+div.card:hover {
+  box-shadow: 0 4px 16px 0 #d0d0d0;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+h5 {
+  font-weight: 800;
+}
+
+@media (min-width: 700px) {
+    input.form-control {
+      width: 30rem;
+    }
+  }
+
+@media (min-width: 990px) {
+  input.form-control {
+    width: 50rem;
+  }
+}
